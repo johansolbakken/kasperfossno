@@ -53,3 +53,20 @@ body {
     width: 40%;
     object-fit: cover;
 }
+
+footer {
+    position: relative;
+    padding: 1%;
+    background: rgba(256, 256, 256, 100);
+}
+
+.logo {
+    margin: auto;
+    padding: 1%;
+    background: #ff7043;
+    width: 20%; 
+}
+
+.logo img {
+    width: 25%;
+}
