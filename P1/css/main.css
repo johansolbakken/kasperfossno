@@ -1,7 +1,6 @@
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #ffa270;
-    height: 100%;
 }
 
 body {
@@ -10,7 +9,6 @@ body {
     background-color: white;
     position: relative;
     top: 0px;
-    height: 100%;
 }
 
 .Title {
