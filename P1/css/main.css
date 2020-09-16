@@ -57,17 +57,23 @@ body {
 footer {
     position: relative;
     padding: 1%;
-    background: rgba(256, 256, 256, 100);
+    background: #ff7043;
+    border:solid;
 }
 
 .logo {
     margin: auto;
     padding: 1%;
-    background: #ff7043;
+    border: solid;
+    background-color: #ff8a66;
     width: 40%; 
     text-align: center;
 }
 
 .logo img {
     width: 15%;
+} 
+.titlelogo img {
+    width: 15%;
+    display:none;
 } 
