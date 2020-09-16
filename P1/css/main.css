@@ -28,10 +28,12 @@ body {
 }
 
 .Gruppemedlemmer {
+    font-style: italic;
 }
 
 .Dato {
     font-style: italic;
+    color: #666;
 }
 
 .Klient {
@@ -45,11 +47,11 @@ body {
 }
 
 .Bilde-Kasper {
-    float: right;
+    margin: auto;
+    text-align: center;
 }
 
 .Bilde-Kasper img {
-    width:40%;
-
+    width: 40%;
+    object-fit: cover;
 }
-
