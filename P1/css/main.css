@@ -1,0 +1,55 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffa270;
+    height: 100%;
+}
+
+body {
+    width: 75%;
+    margin: 0px auto;
+    background-color: white;
+    position: relative;
+    top: 0px;
+    height: 100%;
+}
+
+.Title {
+    text-align: center;
+    background-color: #ff7043;
+    margin: 0px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    padding: 1em 0px;
+}
+
+.Byline {
+    text-align: right;
+}
+
+.Gruppemedlemmer {
+}
+
+.Dato {
+    font-style: italic;
+}
+
+.Klient {
+    width: 90%;
+    margin: auto;
+}
+
+.Content {
+    width: 90%;
+    margin: auto;
+}
+
+.Bilde-Kasper {
+    float: right;
+}
+
+.Bilde-Kasper img {
+    width:40%;
+
+}
+
