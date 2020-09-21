@@ -68,12 +68,14 @@ footer {
     background-color: #ff8a66;
     width: 40%; 
     text-align: center;
+    display:none;
 }
 
 .logo img {
     width: 15%;
+    display:none;
 } 
 .titlelogo img {
     width: 15%;
-    /*display:none;*/
+    display:none;
 } 
