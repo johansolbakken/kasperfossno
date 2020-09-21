@@ -51,7 +51,8 @@ body {
 
 .Bilde-Kasper img {
     width: 40%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 footer {
@@ -79,3 +80,7 @@ footer {
     width: 15%;
     display:none;
 } 
+
+li.Underliste {
+    list-style: none;
+}
