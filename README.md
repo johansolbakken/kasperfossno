@@ -10,4 +10,4 @@
 ## Om dette repo
 Dette er repo for gruppeprosjektet vårt i WebTek.
 
-<img src="P1/img/Johans Disipler.png" width="200px">
+<img src="img/Johans_Disipler.png" width="200px">

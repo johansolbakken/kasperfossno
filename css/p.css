@@ -84,3 +84,12 @@ footer {
 li.Underliste {
     list-style: none;
 }
+
+.diagram-bilde {
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 4em;
+}
