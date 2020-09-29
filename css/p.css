@@ -132,6 +132,7 @@ section {
     width: 60%;
 }
 
+
 @media only screen and (max-width: 1000px) {
 
     .Title {
@@ -176,6 +177,56 @@ section {
 
     .Bilde {
         margin: auto;
+        width: 60%;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: small;
+        margin: 0em 7% 2em 7%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Title {
+        font-size: 1.2em;
+    }
+
+    .Byline {
+        font-size: small;
+        margin: 0em 7% 0em 7%;
+    }
+
+    .Dato {
+        font-size: small;
+        margin: 0em 7% 1em 7%;
+    }
+
+
+    li {
+        font-size: 1em;
+    }
+
+    .Gruppemedlemmer {
+        font-size: small;
+        margin: 0em 7% 1em 7%;
+    }
+
+    .Brødtekst {
+        font-size: 1.3em;
+        margin: 0em 7% 2em 7%;
+    }
+
+    header {
+        margin: 0em 7%;
+        font-size: 1.5em;
+    }
+
+
+    .Bilde {
+        margin: auto;
         width: 90%;
         text-align: center;
     }
@@ -186,6 +237,9 @@ section {
     }
 
 }
+
+
+
 
 @media only screen and (max-width: 350px) {
 
@@ -236,3 +290,4 @@ section {
     }
 
 }
+
