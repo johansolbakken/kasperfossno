@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#AA0E00;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#940E00;}
+	.st3{fill:none;}
+	.st4{font-family:'MyriadPro-Regular';}
+	.st5{font-size:19px;}
+</style>
+<g id="Bakgrunn">
+	<rect x="207.5" y="-0.5" class="st0" width="916" height="768"/>
+</g>
+<g id="Layer_4">
+	<g>
+		<rect x="299" y="100" class="st1" width="730" height="643"/>
+	</g>
+</g>
+<g id="Navigasjonsbar">
+	<rect x="207" y="90.5" class="st2" width="916" height="63.5"/>
+</g>
+<g id="Menyknapper">
+	<rect x="445" y="105" class="st0" width="106" height="35"/>
+	<rect x="777" y="105" class="st0" width="106" height="35"/>
+	<rect x="612" y="105" class="st0" width="106" height="35"/>
+	<rect x="943" y="105" class="st0" width="106" height="35"/>
+	<rect x="279" y="105" class="st0" width="106" height="35"/>
+	<rect x="299" y="114" class="st3" width="195" height="63"/>
+	<text transform="matrix(1 0 0 1 299 127.4897)" class="st1 st4 st5">Forside</text>
+	<rect x="475" y="114" class="st3" width="166.5" height="92"/>
+	<text transform="matrix(1 0 0 1 475 127.4897)" class="st1 st4 st5">Event</text>
+	<rect x="816" y="115" class="st3" width="73" height="61"/>
+	<text transform="matrix(1 0 0 1 816 128.4897)" class="st1 st4 st5">Om</text>
+	<rect x="966" y="116" class="st3" width="137" height="75"/>
+	<text transform="matrix(1 0 0 1 966 129.4897)" class="st1 st4 st5">Kontakt</text>
+	<rect x="634" y="113" class="st3" width="156" height="81"/>
+	<text transform="matrix(1 0 0 1 634 126.4897)" class="st1 st4 st5">Videoer</text>
+</g>
+</svg>
