@@ -1,4 +1,4 @@
 git pull
 git fetch origin
-git merge master/origin
+git merge origin/master
 git status
