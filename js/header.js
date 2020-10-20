@@ -1,24 +1,22 @@
-<!DOCTYPE html>
-<html lang="nb">
+function createHeader() {
+    var head = document.getElementsByTagName("HEAD")[0];
+    var title = document.getElementsByTagName("h1")[0].innerHTML;
 
-<head>
-    <meta charset="utf-8">
-    <title>Kasper Foss</title>
-    <link rel="stylesheet" href="css/p.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/anim.css">
-</head>
+    styles = ["main", "navigasjon", String(title).toLowerCase()]; //TODO: Add footer
 
-<body>
-    <div class="main">
-        <h1>Kasper Foss.no</h1>
+    for (let i = 0; i < styles.length; i++) {
+        var link = document.createElement("link");
 
-        <p><a href="Documents/P1_requirements_13.html">P1_requirements_13.html</a></p>
-        <p><a href="Documents/P2_design_13.html">P2_design_13.html</a></p>
-        <div id="anim">
-            <img src="img/Kasper_Foss.png" alt="" width="100px">
-        </div>
-    </div>
-</body>
+        // set the attributes for link element
+        link.rel = "stylesheet";
 
-</html>
+        link.type = "text/css";
+
+        link.href = "../css/" + styles[i] + ".css";
+
+        // Append link element to HTML head
+        head.appendChild(link);
+    }
+}
+
+createHeader();
