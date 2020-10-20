@@ -1,4 +1,6 @@
 
+// LinkNavCss()
+// - Denne funksjonen linker navigasjon.css til siden
 function linkNavCss() {
     // Get HTML head element
     var head = document.getElementsByTagName("HEAD")[0];

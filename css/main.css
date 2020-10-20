@@ -27,9 +27,12 @@ html {
     Innhold
 */
 
-.main {
-    background-color: white;
+.main{
     width: 90%;
-    height: 800px;
     margin: auto;
 }
+
+.innhold {
+    background-color: white;
+}
+
