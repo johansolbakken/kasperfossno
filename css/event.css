@@ -1,24 +1,72 @@
-<!DOCTYPE html>
-<html lang="nb">
+/* Event Css*/
 
-<head>
-    <meta charset="utf-8">
-    <title>Kasper Foss</title>
-    <link rel="stylesheet" href="css/p.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/anim.css">
-</head>
+/* Hele driten*/
+#event_Innhold{
+    height: 1000px;
+    width: 100%;
+    
+}
+/*Overskrift*/
+#event_overskrift{
+    text-align: center;
+}
+/* Hoveddel*/
+#event_hoveddel{
+    margin-top: 40px;
+    width: 500px;
+    float: left;
+    
+}
 
-<body>
-    <div class="main">
-        <h1>Kasper Foss.no</h1>
+/* UL-css */
+ul{
+    font-size: 15px;
+    margin-left: 25px;
+}
+            
+/* cards*/
+#event_cards{
+    height: 200px;
+    width:550px;
+    border: 1px solid black;
+    padding: 30px;
+    float: right;
+    
+  
+}
+#event_cards div{
+    margin-right: 20px;
+    width: 140px;
+    height: 160px;
+    float: left;
+}
+#card_1{
+    
+    background-image: url("../img/KasperFoss.jpg");
+    background-repeat:no-repeat;
+}
 
-        <p><a href="Documents/P1_requirements_13.html">P1_requirements_13.html</a></p>
-        <p><a href="Documents/P2_design_13.html">P2_design_13.html</a></p>
-        <div id="anim">
-            <img src="img/Kasper_Foss.png" alt="" width="100px">
-        </div>
-    </div>
-</body>
+#card_2{
+    
+    background-image: url(../img/KasperFoss.jpg);
+    background-repeat:no-repeat;
+}
 
-</html>
+#card_3{
+    
+    background-image: url("../img/KasperFoss.jpg");
+    background-repeat:no-repeat;
+}
+
+#event_cards div:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 1s ease;
+    
+}
+
+
+
+
