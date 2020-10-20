@@ -1,0 +1,9 @@
+.forside-bilde img {
+    min-width: 100%;
+    height: 100%;
+    
+}
+
+.forside-bilde {
+    align-items: center;
+}
