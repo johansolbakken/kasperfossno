@@ -3,9 +3,23 @@
 .media-video{
     text-align: center;
     color: black;
+    padding:15px;
+    
+
+}
+
+header{
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 
+iframe {
+    width: 50%;
+}
 
-
-
+@media screen and (max-width:768px) {
+    iframe {
+        width: 100%;
+    }
+}
