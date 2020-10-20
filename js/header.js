@@ -10,7 +10,7 @@ function createHeader() {
         // set the attributes for link element
         link.rel = "stylesheet";
 
-        link.href = "../css/" + styles[i] + ".css";
+        link.href = "./css/" + styles[i] + ".css";
 
         // Append link element to HTML head
         head.appendChild(link);
