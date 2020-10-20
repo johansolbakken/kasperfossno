@@ -1,24 +1,12 @@
-<!DOCTYPE html>
-<html lang="nb">
 
-<head>
-    <meta charset="utf-8">
-    <title>Kasper Foss</title>
-    <link rel="stylesheet" href="css/p.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/anim.css">
-</head>
+.profile_picture {
+    width: 223px;
+}
+p {
+    margin-bottom: 50px;
+}
 
-<body>
-    <div class="main">
-        <h1>Kasper Foss.no</h1>
+body {
+    line-height: 25px;
+}
 
-        <p><a href="Documents/P1_requirements_13.html">P1_requirements_13.html</a></p>
-        <p><a href="Documents/P2_design_13.html">P2_design_13.html</a></p>
-        <div id="anim">
-            <img src="img/Kasper_Foss.png" alt="" width="100px">
-        </div>
-    </div>
-</body>
-
-</html>
