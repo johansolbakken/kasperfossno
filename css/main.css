@@ -1,13 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
+/*
+    Farger
+    Primary:
+        #aa0e00
+        Light: #e34c2c
+        Dark: #740000
+*/
+
+* {
+    /* Fjerner all style slik at vi begynner fra scratch */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 html {
     font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Verdana, sans-serif;
     height: 100%;
     margin: 0;
+    color: #ffffff;
+    background-color: #aa0e00;
 }
 
-body {
-    margin: 0px;
-    padding: 0px;
+
+/* NAVIGASJON */
+
+
+
+/*
+    Innhold
+*/
+
+.main {
+    background-color: white;
+    width: 90%;
+    height: 800px;
+    margin: auto;
 }
