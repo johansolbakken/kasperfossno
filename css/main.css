@@ -31,7 +31,11 @@ html {
     background-color: white;
     width: 90%;
     margin: auto;
-    padding: 2em;
+    padding: 4em;
+}
+
+h1 {
+    margin-bottom: 1em;
 }
 
 

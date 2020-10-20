@@ -4,7 +4,6 @@
     text-align: center;
     color: black;
     padding:15px;
-    
 
 }
 
@@ -16,6 +15,8 @@ header{
 
 iframe {
     width: 50%;
+    border: 0;
+    overflow: scroll;
 }
 
 @media screen and (max-width:768px) {
