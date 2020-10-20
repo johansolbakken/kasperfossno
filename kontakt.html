@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html lang="nb">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/kontakt.css">
-    <!--Header i javascript-->
-</head>
-<body>
-    <!--Navigasjon-->
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kontakt</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/kontakt.css" />
+        <!--Header i javascript-->
+    </head>
+    <body>
+        <!--Navigasjon-->
+        <nav id="nav"></nav>
 
-    <!--Innhold-->
-    <Div class="main"></Div>
-    <header>
-        <h1>Kontakt</h1>
-    </header>
-    <Div class="innhold">
-        <Div class="kontaktskjema">
-            <form id="kontaktskjema" method="post" action="">
-                <!--Hentet informasjon fra youtube (https://www.youtube.com/watch?v=Iv93yjdvkWI)-->
+        <!--Innhold-->
+        <div class="main"></div>
+        <header>
+            <h1>Kontakt</h1>
+        </header>
+        <div class="innhold">
+            <div class="kontaktskjema">
+                <form id="kontaktskjema" method="post" action="">
+                    <!--Hentet informasjon fra youtube (https://www.youtube.com/watch?v=Iv93yjdvkWI)-->
 
-            <input name="name" type="text" class="skjemakontroll" placeholder="Navn" required>
-            <input name="email" type="email" class="skjemakontroll" placeholder="e-post" required>
-                <textarea name="message" class="skjemakontroll" placeholder="Hva kan vi hjelpe med?" row="4" required></textarea>
-                <input type="submit" class="skjemakontroll_submit" value="Send melding">
-
-            </form>
-        </Div>
-        <h2>Andre plattformer:</h2>
-        <p>For mer informasjon kan man følge Kasper Foss på Instagram, Twitter og Facebook. 
-            Trykk på ikonene for å gå til de aktuelle sidene.</p>
-            <Div class="some_liste"></Div>
-            <ul>
-                <a href="https://twitter.com/kasper_foss"><li href="https://twitter.com/kasper_foss" style="list-style-image: url(img/twitter.jpg);">Twitter</li></a> 
-                <a href="https://www.instagram.com/kasperrfoss/?hl=nb"><li style="list-style-image: url('img/instagram.jpg');">Instagram</li></a>
-                <a href="https://www.facebook.com/kasperrfoss"><li style="list-style-image: url('img/facebook.jpg');">Facebook</li></a>
-            </ul>    
-    </Div>
-   <!--Footer i javascript--> 
-</body>
-
+                    <input
+                        name="name"
+                        type="text"
+                        class="skjemakontroll"
+                        placeholder="Navn"
+                        required
+                    />
+                    <input
+                        name="email"
+                        type="email"
+                        class="skjemakontroll"
+                        placeholder="e-post"
+                        required
+                    />
+                    <textarea
+                        name="message"
+                        class="skjemakontroll"
+                        placeholder="Hva kan vi hjelpe med?"
+                        row="4"
+                        required
+                    ></textarea>
+                    <input
+                        type="submit"
+                        class="skjemakontroll_submit"
+                        value="Send melding"
+                    />
+                </form>
+            </div>
+            <h2>Andre plattformer:</h2>
+            <p>
+                For mer informasjon kan man følge Kasper Foss på Instagram,
+                Twitter og Facebook. Trykk på ikonene for å gå til de aktuelle
+                sidene.
+            </p>
+            <div class="some_liste">
+                <ul>
+                    <li style="list-style-image: url(img/twitter.jpg)">
+                        Twitter
+                    </li>
+                    <li style="list-style-image: url('img/instagram.jpg')">
+                        Instagram
+                    </li>
+                    <li style="list-style-image: url('img/facebook.jpg')">
+                        Facebook
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Footer i javascript-->
+        <!-- Javascript -->
+        <script src="js/navigasjon.js"></script>
+    </body>
 </html>

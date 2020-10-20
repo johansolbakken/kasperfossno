@@ -27,9 +27,8 @@ html {
     Innhold
 */
 
-.main {
+.innhold {
     background-color: white;
     width: 90%;
-    height: 800px;
     margin: auto;
 }

@@ -1,14 +1,3 @@
-
-#kontaktskjema {
-    margin-top: 50px;
-    transition: all 4s ease-in-out;
-}
-
-.skjemakontroll {
-    width: 600px;
-    background: transparent;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid grey;
-    margin-bottom: 16px;
+li { 
+    list-style: circle;
 }
