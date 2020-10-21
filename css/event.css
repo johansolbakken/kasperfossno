@@ -10,22 +10,28 @@
 #event_overskrift{
     text-align: center;
 }
-/* Hoveddel*/
-#event_hoveddel{
-    margin-top: 40px;
-    width: 500px;    
-}
 
 
+/* event info delen */
 #event_info {
     height: auto;
     width: auto;
-    position: relative;
-    
     font-size: 30px;
+    padding: 5px;
 }
 #event_info h2{
     font-size: 40px;
+}
+#Oppdatert_tilbud{
+    margin-bottom: 90px;
+}
+
+#kommende_eventer{
+    margin-top: 40px;
+}
+#kommende_eventer p{
+    font-size: 25px;
+    
 }
 
 
