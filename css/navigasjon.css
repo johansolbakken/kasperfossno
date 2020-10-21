@@ -79,31 +79,3 @@ nav {
     opacity: 1;
 }
 
-.nav-link {
-    padding: 2em 3em;
-}
-
-.nav-link:hover, .nav-link:focus {
-    background-color: #720000;
-}
-
-
-/* DROP DOWN FROM HERE (https://www.w3schools.com/howto/howto_js_dropdown.asp)*/
-.dropbtn:hover,
-.dropbtn:focus {
-    background-color: #2980b9;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}

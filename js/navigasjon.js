@@ -33,25 +33,10 @@ function lagNavigasjon() {
 
         a.innerHTML = title;        
         a.setAttribute("href", filer[i] + ".html");
-        a.classList.toggle("nav-link");
-        
         
 
         li.appendChild(a);
 
-        if (title == "Event") {
-            a.classList.toggle("dropbtn");
-
-            let dropdown = document.createElement("div");
-            dropdown.id = "dropdown";
-            dropdown.class = "dropdown-content";
-            
-            let testA = document.createElement("a");
-            testA.href = "test.html";
-            testA.innerHTML = "Test deg selv!";
-            dropdown.appendChild(testA);
-            li.appendChild(dropdown);
-        }
         
         ul.appendChild(li);
     }
