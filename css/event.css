@@ -1,16 +1,14 @@
 /* Event Css*/
 
 /* Hele driten*/
-#event_Innhold{
+#event_Innhold {
     height: 1000px;
     width: 100%;
-    
 }
 /*Overskrift*/
-#event_overskrift{
+#event_overskrift {
     text-align: center;
 }
-
 
 /* event info delen */
 #event_info {
@@ -19,26 +17,16 @@
     font-size: 30px;
     padding: 5px;
 }
-#event_info h2{
+#event_info h2 {
     font-size: 40px;
 }
-#Oppdatert_tilbud{
+#Oppdatert_tilbud {
     margin-bottom: 90px;
 }
 
-#kommende_eventer{
+#kommende_eventer {
     margin-top: 40px;
 }
-#kommende_eventer p{
+#kommende_eventer p {
     font-size: 25px;
-    
 }
-
-
-
-
-    
-
-
-
-

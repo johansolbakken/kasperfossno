@@ -3,7 +3,8 @@ form {
     margin-bottom: 2em;
 }
 
-input, textarea {
+input,
+textarea {
     margin: 0px 1em 1em 1em;
     width: 40vh;
 }
@@ -20,4 +21,3 @@ input[type="submit"] {
 .skjemakontroll_submit {
     cursor: pointer;
 }
-

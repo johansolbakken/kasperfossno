@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 /*
     Farger
@@ -12,11 +12,13 @@
     /* Fjerner all style slik at vi begynner fra scratch */
     margin: 0px;
     padding: 0px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 html {
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue,
+        Verdana, sans-serif;
     height: 100%;
     margin: 0;
     color: #000;
@@ -31,7 +33,7 @@ body {
     height: 100%;
 }
 
-.main{
+.main {
     background-color: white;
     width: 90%;
     margin: auto;
@@ -42,5 +44,3 @@ body {
 h1 {
     margin-bottom: 1em;
 }
-
-
