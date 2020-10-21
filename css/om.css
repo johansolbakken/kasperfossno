@@ -1,5 +1,6 @@
 .profile_picture {
     width: 223px;
+    margin-bottom: 25px;
 }
 p {
     margin-bottom: 50px;
@@ -10,3 +11,9 @@ body {
     line-height: 25px;
 }
 
+#Karakterer {
+    margin-bottom: 30px;
+}
+#Listeoverpersoner {
+    margin-bottom: 30px;
+}
