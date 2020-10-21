@@ -1,0 +1,18 @@
+
+.footer {
+    color: #000;
+    background-color: black;
+    height: 120px;
+}
+.footer-bottom {
+    background: #343a40;
+    color: brown;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+
+
+}

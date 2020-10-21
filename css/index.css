@@ -1,9 +1,20 @@
 .forside-bilde img {
-    min-width: 100%;
-    height: 100%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  object-fit: cover;
     
 }
 
 .forside-bilde {
     align-items: center;
+}
+
+
+.main{
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
 }
