@@ -25,7 +25,7 @@ function lagNavigasjon() {
         let a = document.createElement("a");
         let title =
             filer[i][0].toUpperCase() + filer[i].slice(1, filer[i].length);
-            console.log(title);
+
         if (title == "Index") {
             title = "Hjem";
         }

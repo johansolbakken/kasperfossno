@@ -27,6 +27,10 @@ html {
     Innhold
 */
 
+body {
+    height: 100%;
+}
+
 .main{
     background-color: white;
     width: 90%;
