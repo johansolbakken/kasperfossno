@@ -1,0 +1,18 @@
+.quiz {
+    
+    width: 75%;
+    margin: auto;
+    margin-top: 1em;
+}
+
+form {
+    width: 100%;
+}
+
+#q {
+    margin-bottom: 1em;
+}
+
+.alt {
+    margin-bottom: 1em;
+}
