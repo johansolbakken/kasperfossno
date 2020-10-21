@@ -13,58 +13,73 @@
 /* Hoveddel*/
 #event_hoveddel{
     margin-top: 40px;
-    width: 500px;
+    width: 500px;    
+}
+         
+/* cards*/
+#event_cards{
+    height: auto;
+    width:  auto;
+    padding: 30px;
+    margin-top: 30px;
+    
+}
+#event_cards div{
+    margin-right: 214px;
+    width: 200px;
+    height: 300px;
     float: left;
     
 }
 
-/* UL-css */
-ul{
-    font-size: 15px;
-    margin-left: 25px;
+#event_cards p{
+    display:none;
+    text-align: center;
+    margin-top: 50%;
+    font-family: "Lucida Console", Courier, monospace;   
 }
-            
-/* cards*/
-#event_cards{
-    height: 200px;
-    width:550px;
-    border: 1px solid black;
-    padding: 30px;
-    float: right;
-    
-  
-}
-#event_cards div{
-    margin-right: 20px;
-    width: 140px;
-    height: 160px;
-    float: left;
-}
+
 #card_1{
     
     background-image: url("../img/KasperFoss.jpg");
     background-repeat:no-repeat;
+    background-size:contain;
+    float: left;
 }
 
 #card_2{
     
     background-image: url(../img/KasperFoss.jpg);
     background-repeat:no-repeat;
+    background-size:contain;
 }
 
 #card_3{
     
     background-image: url("../img/KasperFoss.jpg");
     background-repeat:no-repeat;
+    background-size:contain;
+    float: right;
 }
+
+/* Effects*/
 
 #event_cards div:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
+    opacity: 0.2;
+    transition: 1s ease;
+
+}
+#event_cards div:hover > p{
+    display: block;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
     opacity: 1;
     transition: 1s ease;
-    
+
 }
 
 
