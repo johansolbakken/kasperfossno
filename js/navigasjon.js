@@ -26,14 +26,33 @@ function lagNavigasjon() {
         let a = document.createElement("a");
         let title =
             filer[i][0].toUpperCase() + filer[i].slice(1, filer[i].length);
+            console.log(title);
         if (title == "Index") {
             title = "Hjem";
         }
-        a.innerHTML = title;
 
+        a.innerHTML = title;        
         a.setAttribute("href", filer[i] + ".html");
+        a.classList.toggle("nav-link");
+        
+        
 
         li.appendChild(a);
+
+        if (title == "Event") {
+            a.classList.toggle("dropbtn");
+
+            let dropdown = document.createElement("div");
+            dropdown.id = "dropdown";
+            dropdown.class = "dropdown-content";
+            
+            let testA = document.createElement("a");
+            testA.href = "test.html";
+            testA.innerHTML = "Test deg selv!";
+            dropdown.appendChild(testA);
+            li.appendChild(dropdown);
+        }
+        
         ul.appendChild(li);
     }
     nav.appendChild(ul);
