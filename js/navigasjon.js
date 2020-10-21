@@ -1,6 +1,5 @@
 function lagNavigasjon() {
     
-
     let filer = ["index", "event", "om", "media", "kontakt"];
 
     // Lager nav
