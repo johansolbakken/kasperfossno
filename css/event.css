@@ -22,65 +22,111 @@
     width:  auto;
     padding: 30px;
     margin-top: 30px;
+    margin-left: 80px;
+    
     
 }
 #event_cards div{
-    margin-right: 214px;
-    width: 200px;
-    height: 300px;
     float: left;
-    
+    margin-right: 7%;
 }
 
-#event_cards p{
-    display:none;
-    text-align: center;
-    margin-top: 50%;
-    font-family: "Lucida Console", Courier, monospace;   
+/* bilder*/
+#bilde_1{
+    height: 380px;
+    width: 350px;
+    position: relative;
+}
+#bilde_2{
+    height: 380px;
+    width: 350px;
+    position: relative;
+}
+#bilde_3{
+    height: 380px;
+    width: 350px;
+    position: relative;
 }
 
-#card_1{
+/*Texter*/
+#text1{
+    font-size: 50px;
+    position: absolute;
+    top: 49%;
+    left: 12%;
+    display: none;
     
-    background-image: url("../img/KasperFoss.jpg");
-    background-repeat:no-repeat;
-    background-size:contain;
-    float: left;
+}
+#text2{
+    font-size: 50px;
+    position: absolute;
+    top: 49%;
+    left:40%;
+    display: none;
+    
+}
+#text3{
+    font-size: 50px;
+    position: absolute;
+    top: 49%;
+    right:9%;
+    display: none;
+    
+}
+.card{
+    z-index: -1;
 }
 
-#card_2{
-    
-    background-image: url(../img/KasperFoss.jpg);
-    background-repeat:no-repeat;
-    background-size:contain;
+#event_info {
+    height: auto;
+    width: auto;
+    position: relative;
+    margin-top:30%;
+    margin-left: 30px;
+    font-size: 30px;
 }
-
-#card_3{
-    
-    background-image: url("../img/KasperFoss.jpg");
-    background-repeat:no-repeat;
-    background-size:contain;
-    float: right;
+#event_info h2{
+    font-size: 40px;
 }
 
 /* Effects*/
 
-#event_cards div:hover{
+#card1:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     opacity: 0.2;
     transition: 1s ease;
-
 }
-#event_cards div:hover > p{
-    display: block;
+#card2:hover{
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-    opacity: 1;
+    opacity: 0.2;
     transition: 1s ease;
-
 }
+#card3:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0.2;
+    transition: 1s ease;
+}
+#card1:hover +#text1{
+    display: block;
+    
+}
+#card2:hover +#text2{
+    display:block;
+   
+}
+#card3:hover +#text3{
+    display: block;
+    
+}
+
+
+    
 
 
 
