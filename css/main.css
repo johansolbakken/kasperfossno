@@ -27,11 +27,16 @@ html {
     Innhold
 */
 
+body {
+    height: 100%;
+}
+
 .main{
     background-color: white;
     width: 90%;
     margin: auto;
     padding: 4em;
+    min-height: 100%;
 }
 
 h1 {
