@@ -1,16 +1,4 @@
 
-.profile_picture {
-    width: 223px;
-}
-p {
-    margin-bottom: 50px;
-}
-
-body {
-    height: 100%;
-    line-height: 25px;
-}
-
 .footer {
     color: #000;
     background-color: black;
@@ -26,16 +14,5 @@ body {
     left: 0px;
 
 
-}
-.footer-content {
-   border: 1px solid red;
-   height: 350px;
-
-   
-}
-.page.wrapper {
-    min-height: 100%;
-}
 
 }
-
