@@ -62,6 +62,14 @@ let winner_bilder = [
     "bilde-bernt",
 ];
 
+let winner_lyd = [
+    "lyd-kjetil",
+    "lyd-oyvind",
+    "lyd-kare",
+    "lyd-morten",
+    "lyd-bernt",
+];
+
 let index = 0;
 
 function next_question() {
@@ -88,6 +96,8 @@ function next_question() {
         let winner = document.getElementById(winner_bilder[i]);
         winner.style.display = "inline-block";
 
+        let winner_sound = document.getElementById(winner_lyd[i]);
+        winner_sound.play();
     }
 }
 
