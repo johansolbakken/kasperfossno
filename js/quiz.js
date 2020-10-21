@@ -14,7 +14,7 @@ let form = document.getElementById("form");
 
 let exit = false;
 
-sporsmal = [
+let sporsmal = [
     "Hvis Erling Braut Haaland scorer et landslagsmål, hvordan reagerer du?",
     "Hvor skråsikker er du på dine egne meninger?",
     "Hvor aktiv er du på sosiale medier?",
@@ -22,7 +22,7 @@ sporsmal = [
     "Hvilket forhold har du til trøndere?",
 ];
 
-alternativ = [
+let alternativ = [
     [
         "Vet ikke hvem Haaland er",
         "Blir glad, men har betta på at han scorer to mål og Norge vinner, så tar ikke helt av enda.",
@@ -46,7 +46,7 @@ alternativ = [
     ],
 ];
 
-gutta = [
+let gutta = [
     { navn: "Kjetil Rekdal", score: 0 },
     { navn: "Øyvind Alsaker", score: 0 },
     { navn: "Kåre Ingebrigtsen", score: 0 },
@@ -54,9 +54,21 @@ gutta = [
     { navn: "Bernt Hulsker", score: 0 },
 ];
 
+let winner_bilder = [
+    "bilde-kjetil",
+    "bilde-oyvind",
+    "bilde-kare",
+    "bilde-morten",
+    "bilde-bernt",
+];
+
 let index = 0;
 
 function next_question() {
+    a1.checked = false;
+    a2.checked = false;
+    a3.checked = false; 
+    
     if (exit == false) {
         question.innerHTML = "Spørsmål " + (index + 1) + ": " + sporsmal[index];
         i1.innerHTML = alternativ[index][0];
@@ -70,9 +82,13 @@ function next_question() {
             }
         }
         question.innerHTML =
-            "Du matcher " + gutta[i].score *10 + "% med " + gutta[i].navn + "!";
+            "Du er " +
+            gutta[i].navn +
+            "!";
+        let winner = document.getElementById(winner_bilder[i]);
+        winner.style.display = "inline-block";
+
     }
-    
 }
 
 button.addEventListener("click", () => {
@@ -195,9 +211,8 @@ button.addEventListener("click", () => {
             } else {
                 return;
             }
-            
+
             form.style.display = "none";
-            display_winner();
             exit = true;
         }
 
@@ -205,9 +220,5 @@ button.addEventListener("click", () => {
         next_question();
     }
 });
-
-function display_winner() {
-    console.log(gutta);
-}
 
 next_question();
