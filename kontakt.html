@@ -23,7 +23,7 @@
                 <p>Send oss en epost!</p>
                 <br />
                 <div class="kontaktskjema">
-                    <form id="kontaktskjema" method="post">
+                    <form id="kontaktskjema" method="post" onsubmit="return false">
                         <!--Hentet informasjon fra youtube (https://www.youtube.com/watch?v=Iv93yjdvkWI)-->
                         <fieldset>
                             <legend>Kontaktinformasjon</legend>
@@ -51,9 +51,11 @@
                             ></textarea>
                             <br />
                             <input
+                                id="button" 
                                 type="submit"
                                 class="skjemakontroll_submit"
                                 value="Send melding"
+                                
                             />
                         </fieldset>
                     </form>
@@ -86,6 +88,7 @@
 
         <!--Footer i javascript-->
         <!-- Javascript -->
+        <script src="js/form_validasjon.js"></script>
         <script src="js/navigasjon.js"></script>
     </body>
 </html>
