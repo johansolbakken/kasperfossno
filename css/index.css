@@ -126,14 +126,15 @@ body {
         border: solid #e34c2c 1px;
     }
     .forside-bilde img {
+        -webkit-transform: translateX(-25%);
+        -ms-transform: translateX(-25%);
         transform: translateX(-25%);
     }
-
 }
 
 #ord {
     margin-top: 8px;
     margin-bottom: 8px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     font-size: 13px;
 }

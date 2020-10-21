@@ -1,18 +1,13 @@
-
-
-
-.media-video{
+.media-video {
     text-align: center;
     color: black;
-    padding:30px;
-
+    padding: 30px;
 }
 
-header{
+header {
     text-align: center;
     padding-bottom: 30px;
 }
-
 
 iframe {
     width: 50%;
@@ -20,7 +15,7 @@ iframe {
     overflow: scroll;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
     iframe {
         width: 100%;
     }

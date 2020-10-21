@@ -1,5 +1,10 @@
+/**
+ * navigasjon.js
+ * Lager navigasjonen dynamisk
+ */
+
 function lagNavigasjon() {
-    
+    // Liste over filene som skal i navigasjonen
     let filer = ["index", "event", "om", "media", "kontakt"];
 
     // Lager nav
@@ -8,10 +13,8 @@ function lagNavigasjon() {
     // Lager logo
     let logo = document.createElement("div");
     logo.classList.toggle("logo");
-
     let h4 = document.createElement("h4");
     h4.innerHTML = "Kasper Foss";
-
     logo.appendChild(h4);
     nav.appendChild(logo);
 
@@ -21,7 +24,6 @@ function lagNavigasjon() {
 
     for (let i = 0; i < filer.length; i++) {
         let li = document.createElement("li");
-
         let a = document.createElement("a");
         let title =
             filer[i][0].toUpperCase() + filer[i].slice(1, filer[i].length);
@@ -32,13 +34,10 @@ function lagNavigasjon() {
 
         a.innerHTML = title;        
         a.setAttribute("href", filer[i] + ".html");
-        
-
         li.appendChild(a);
-
-        
         ul.appendChild(li);
     }
+
     nav.appendChild(ul);
 
     // Burger meny
@@ -58,8 +57,4 @@ function lagNavigasjon() {
 }
 
 
-const app = () => {
-    lagNavigasjon();
-}
-
-app();
+lagNavigasjon();

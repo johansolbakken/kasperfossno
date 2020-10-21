@@ -1,5 +1,4 @@
 .quiz {
-    
     width: 75%;
     margin: auto;
     margin-top: 1em;
@@ -22,7 +21,7 @@ form {
     width: 100%;
 }
 
-#q {
+#sporsmal_label {
     margin-bottom: 1em;
 }
 

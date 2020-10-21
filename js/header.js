@@ -1,3 +1,7 @@
+/**
+ * Funksjonen createheader funker ikke
+ */
+
 function createHeader() {
     let head = document.getElementsByTagName("HEAD")[0];
     
