@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="nb">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Kasper Foss</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/test.css">
-        <link rel="stylesheet" href="css/navigasjon.css">
-        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/test.css" />
+        <link rel="stylesheet" href="css/navigasjon.css" />
+        <link rel="stylesheet" href="css/footer.css" />
         <!--Header Javascript-->
-
     </head>
     <body>
-    <!--Navigasjon-->
+        <!--Navigasjon-->
         <nav id="nav"></nav>
 
         <!--Innhold-->
@@ -21,7 +20,40 @@
                 <h1>Test deg selv</h1>
             </header>
             <div class="innhold">
+                <p>Hvilken Kasper Foss-karakter er du?</p>
 
+                <div class="quiz">
+                    <h3 id="q">Spørsmål</h3>
+                    <form action="" method="post" onsubmit="return false" id="form"> 
+                        <input
+                            type="radio"
+                            id="alternativ1"
+                            name="quiz"
+                            value="alternativ1"
+                            class="alt"
+                        />
+                        <label for="alternativ1" id="i1">Alternativ 1</label><br />
+                        <input
+                            type="radio"
+                            id="alternativ2"
+                            name="quiz"
+                            value="alternativ2"
+                            class="alt"
+                        />
+                        <label for="alternativ2" id="i2">alternativ2</label><br />
+                        <input
+                            type="radio"
+                            id="alternativ3"
+                            name="quiz"
+                            value="alternativ3"
+                            class="alt"
+                            
+
+                        />
+                        <label for="alternativ3" id="i3">alternativ3</label><br />
+                        <button id="nesteKnapp">Neste spørsmål</button>
+                    </form>
+                </div>
             </div>
         </div>
 
@@ -31,8 +63,6 @@
 
         <!-- Javascript -->
         <script src="js/navigasjon.js"></script>
+        <script src="js/quiz.js"></script>
     </body>
-        
-
-
 </html>
