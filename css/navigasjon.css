@@ -9,6 +9,7 @@ nav {
     align-items: center;
     min-height: 7vh;
     background: #870000;
+    z-index: 50;
 }
 
 .logo {

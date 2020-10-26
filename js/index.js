@@ -12,7 +12,7 @@ let mann = document.getElementById("mann");
 visdomsord = [
     ["Lær av i går, lev for i dag, prøve litt i morgen", "Albert Einstein"],
     [
-        "Livet er som å sykle, du komma deg på jobb for å holde balansen",
+        "Livet er som å sykle, du må komma deg på jobb for å holde balansen",
         "Albert Einstein",
     ],
     [
