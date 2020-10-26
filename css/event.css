@@ -20,13 +20,19 @@
 #event_info h2 {
     font-size: 40px;
 }
-#Oppdatert_tilbud {
-    margin-bottom: 90px;
+#Oppdatert_tilbud { /* nye eventer */
+    margin-bottom: 300px;
+    margin-top: 50px;
+    font-size: 30px;
 }
 
-#kommende_eventer {
-    margin-top: 40px;
+#lerøy{
+    font-size: 20px;
+    float: left;
+    
 }
-#kommende_eventer p {
-    font-size: 25px;
+
+#facebook_event{
+    float: right;
+    font-size: 20px;
 }
