@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
 /*
     Farger
     Primary:
@@ -32,6 +32,7 @@ html {
 body {
     height: 100%;
     overflow-x: hidden;
+    line-height: 25px;
 }
 
 .main {
@@ -44,6 +45,14 @@ body {
 
 h1 {
     margin-bottom: 1em;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+}
+
+h2 {
+    margin-bottom: 0.5em;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -80,7 +89,7 @@ h1 {
     nav {
         overflow-x: hidden;
     }
-    
+
     .main {
         background-color: white;
         width: 100%;
@@ -100,7 +109,7 @@ h1 {
     nav {
         overflow-x: hidden;
     }
-    
+
     .main {
         background-color: white;
         width: 100%;
@@ -120,7 +129,7 @@ h1 {
     nav {
         overflow-x: hidden;
     }
-    
+
     .main {
         background-color: white;
         width: 100%;

@@ -21,6 +21,11 @@ nav {
     padding: 1em;
 }
 
+.logo a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
 .nav-links {
     display: -webkit-box;
     display: -ms-flexbox;

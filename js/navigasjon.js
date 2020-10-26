@@ -13,9 +13,12 @@ function lagNavigasjon() {
     // Lager logo
     let logo = document.createElement("div");
     logo.classList.toggle("logo");
+    let a = document.createElement("a");
+    a.href = "index.html";
     let h4 = document.createElement("h4");
     h4.innerHTML = "Kasper Foss";
-    logo.appendChild(h4);
+    a.appendChild(h4);
+    logo.appendChild(a);
     nav.appendChild(logo);
 
     // Lager nav-links
