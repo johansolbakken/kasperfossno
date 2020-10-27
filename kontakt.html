@@ -21,47 +21,52 @@
                 <h1>Kontakt</h1>
             </header>
             <div class="innhold">
-                <p>Send oss en epost!</p>
+                <p>
+                    Ta kontakt ved eventuell booking eller vedrørende andre
+                    spørsmål!
+                </p>
                 <br />
                 <div class="kontaktskjema">
+                    <h2>Kontaktskjema</h2>
                     <form
                         id="kontaktskjema"
                         method="post"
                         onsubmit="return false"
                     >
                         <!--Hentet informasjon fra youtube (https://www.youtube.com/watch?v=Iv93yjdvkWI)-->
-                        <fieldset>
-                            <legend>Kontaktinformasjon</legend>
-                            <input
-                                name="name"
-                                type="text"
-                                class="skjemakontroll"
-                                placeholder="Navn"
-                                required
-                            />
-                            <br />
-                            <input
-                                name="email"
-                                type="email"
-                                class="skjemakontroll"
-                                placeholder="e-post"
-                                required
-                            />
-                            <br />
-                            <textarea
-                                name="message"
-                                class="skjemakontroll"
-                                placeholder="Hva kan vi hjelpe med?"
-                                required
-                            ></textarea>
-                            <br />
-                            <input
-                                id="button"
-                                type="submit"
-                                class="skjemakontroll_submit"
-                                value="Send melding"
-                            />
-                        </fieldset>
+                        <label for="name">Navn</label><br>
+                        <input
+                            name="name"
+                            type="text"
+                            class="skjemakontroll"
+                            placeholder="Navn"
+                            required
+                        />
+
+                        <br />
+                        <label for="email">Epost</label><br>
+                        <input
+                            name="email"
+                            type="email"
+                            class="skjemakontroll"
+                            placeholder="e-post"
+                            required
+                        />
+                        <br />
+                        <label for="message">Melding</label><br>
+                        <textarea
+                            name="message"
+                            class="skjemakontroll"
+                            placeholder="Hva kan vi hjelpe med?"
+                            required
+                        ></textarea>
+                        <br />
+                        <input
+                            id="button"
+                            type="submit"
+                            class="skjemakontroll_submit"
+                            value="Send melding"
+                        />
                     </form>
                 </div>
                 <h2>Andre plattformer:</h2>
