@@ -20,3 +20,24 @@ h2 {
     padding: 2em;
     margin-bottom: 3em;
 }
+
+.kontakt-img {
+    width: 70%;
+    margin: auto;
+}
+
+.kontakt-img img {
+    width: 100%;
+}
+
+.kontakt-img-grid {
+    margin-top: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.kontakt-img-grid img {
+    width: 40%;
+    height: 40%;
+}
