@@ -21,7 +21,7 @@ nav {
     padding: 1em;
 }
 
-.logo a{
+.logo a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -111,6 +111,12 @@ ul.nav-active {
     width: 100%;
     list-style: none;
     background: rgb(0, 0, 0);
+    background: -o-linear-gradient(
+        bottom,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(47, 0, 0, 1) 7%,
+        rgba(170, 14, 0, 1) 86%
+    );
     background: -webkit-gradient(
         linear,
         left bottom,
@@ -118,12 +124,6 @@ ul.nav-active {
         from(rgba(0, 0, 0, 1)),
         color-stop(7%, rgba(47, 0, 0, 1)),
         color-stop(86%, rgba(170, 14, 0, 1))
-    );
-    background: -o-linear-gradient(
-        bottom,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(47, 0, 0, 1) 7%,
-        rgba(170, 14, 0, 1) 86%
     );
     background: linear-gradient(
         0deg,

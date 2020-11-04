@@ -6,7 +6,8 @@ input {
     margin-bottom: 1.5em;
 }
 
-input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
     border: none;
     border-bottom: 1px black solid;
     width: 100%;
@@ -17,7 +18,6 @@ textarea {
     width: 100%;
     font-size: 13px;
 }
-
 
 input[type="submit"] {
     margin-bottom: 0;

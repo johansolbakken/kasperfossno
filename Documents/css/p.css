@@ -1,37 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
 html {
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Verdana, sans-serif;
-    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue,
+        Verdana, sans-serif;
     margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.5em;
 }
 
 body {
     margin: 0px auto;
     background-color: white;
-    position: relative;
-    top: 0px;
-    width: 100;
 }
 
 .Title {
-    text-align: center;
+    padding: 2em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     background-color: black;
-    margin: 0px;
     width: 100%;
     color: white;
-    position: relative;
-    top: 0px;
-    padding: 1em 0px;
+}
+
+.titlelogo {
+    width: 14%;
+}
+
+.titlelogo img {
+    width: 100%;
 }
 
 header {
     margin: 0em 25%;
 }
 
-p {
-    margin-bottom: 2em;
+h3 {
+    color: #49494e;
 }
 
 .Brodtekst {
@@ -40,8 +57,7 @@ p {
 
 .Byline {
     text-align: right;
-    padding-top: 1em;
-    margin: 0em 25%
+    margin: 0em 25%;
 }
 
 .Gruppemedlemmer {
@@ -53,27 +69,24 @@ p {
     color: #666;
 }
 
-
-
 .Content {
     margin: auto;
     width: 100%;
     min-height: 100%;
-
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -50px;
 }
 
 table {
-  border-collapse: collapse;
+    border-collapse: collapse;
 }
 
-table, th, td {
-  border: 1px solid black;
+table,
+th,
+td {
+    border: 1px solid black;
 }
 
-td, th {
+td,
+th {
     padding: 1px;
 }
 
@@ -84,15 +97,14 @@ td, th {
 }
 
 .Bilde img {
-
     max-width: 100%;
 }
 
 footer {
     position: relative;
 
-    background: #F5F5F7;
-    color: #49494E;
+    background: #f5f5f7;
+    color: #49494e;
     border: none;
     width: 100%;
     max-width: 100%;
@@ -103,24 +115,6 @@ footer {
 
 footer p {
     margin: 1em 25% 2em 25%;
-}
-
-.logo {
-    margin: auto;
-    padding: 1%;
-    border: solid;
-    background-color: #ff8a66;
-    width: 40%;
-    text-align: center;
-    display: none;
-}
-
-.logo img {
-    width: 15%;
-}
-
-.titlelogo img {
-    width: 15%;
 }
 
 li.Underliste {
@@ -136,213 +130,36 @@ section {
     margin-bottom: 4em;
 }
 
-
 #Kasper-Profil {
     border-radius: 100%;
     width: 60%;
 }
 
-
-@media only screen and (max-width: 1000px) {
-
-    .Title {
-        font-size: large;
-    }
-
-    Byline {
-        font-size: small;
-        margin: 0em 7% 0em 7%;
-    }
-
-    .Dato {
-        font-size: small;
-        margin: 0em 7% 1em 7%;
-    }
-
-    .Gruppemedlemmer {
-        font-size: small;
-        margin: 0em 7% 1em 7%;
-    }
-
-    li {
-        font-size: small;
-    }
-
-    .Brodtekst {
-        font-size: small;
-        margin: 0em 7% 2em 7%;
-    }
-
-    header {
-        margin: 0em 7%;
-        font-size: small;
-    }
-
-    .Liste {
-        width: 50%;
-        margin: auto;
-        margin: 0em 7% 2em 7%;
-        font-size: medium;
-    }
-
-    .Bilde {
-        margin: auto;
-        width: 60%;
-        text-align: center;
-    }
-
-    footer p {
-        font-size: small;
-        margin: 0em 7% 2em 7%;
-    }
-
-        table, td {
-  font-size: 1em;
+/* {{pp-template}} */
+.treeview ul {
+    padding: 0;
+    margin: 0;
 }
-
+.treeview li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    list-style-image: none;
 }
-
-@media only screen and (max-width: 600px) {
-
-    .Title {
-        font-size: 1.2em;
-    }
-
-    .Byline {
-        font-size: small;
-        margin: 0em 7% 0em 7%;
-    }
-
-    .Dato {
-        font-size: small;
-        margin: 0em 7% 1em 7%;
-    }
-
-
-    li {
-        font-size: 1em;
-    }
-
-    .Gruppemedlemmer {
-        font-size: small;
-        margin: 0em 7% 1em 7%;
-    }
-
-    .Brodtekst {
-        font-size: 1.3em;
-        margin: 0em 7% 2em 7%;
-    }
-
-    header {
-        margin: 0em 7%;
-        font-size: 1.5em;
-    }
-
-
-    .Bilde {
-        margin: auto;
-        width: 90%;
-        text-align: center;
-    }
-
-    footer p {
-        font-size: small;
-        margin: 0em 7% 2em 7%;
-    }
-
-        table, td {
-  font-size: 0.5em;
+.treeview li li {
+    background: url("//upload.wikimedia.org/wikipedia/commons/f/f2/Treeview-grey-line.png")
+        no-repeat 0 -2981px;
+    /* @noflip */
+    padding-left: 21px;
+    text-indent: 0.3em;
 }
-
+.treeview li li:last-child {
+    background-position: 0 -5971px;
 }
-
-
-
-
-@media only screen and (max-width: 350px) {
-
-    .Title {
-        font-size: small;
-    }
-
-    .Byline {
-        font-size: small;
-        margin: 0em 7% 0em 7%;
-    }
-
-    .Dato {
-        font-size: small;
-        margin: 0em 7% 1em 7%;
-    }
-
-
-    li {
-        font-size: small;
-    }
-
-    .Gruppemedlemmer {
-        font-size: small;
-        margin: 0em 7% 1em 7%;
-    }
-
-    .Brodtekst {
-        font-size: small;
-        margin: 0em 7% 2em 7%;
-    }
-
-    header {
-        margin: 0em 7%;
-        font-size: small;
-    }
-
-
-    .Bilde {
-        margin: auto;
-        width: 90%;
-        text-align: center;
-    }
-
-    footer p {
-        font-size: small;
-        margin: 0em 7% 2em 7%;
-    }
-
-        table, td {
-  font-size: 0.5em;
-}
-
-}
-
-/* FILSTRUKTUR */
-.clt, .clt ul, .clt li {
-     position: relative;
-}
-
-.clt ul {
-    list-style: none;
-    padding-left: 32px;
-}
-
-.clt li::before, .clt li::after {
-    content: "";
-    position: absolute;
-    left: -12px;
-}
-
-.clt li::before {
-    border-top: 1px solid #000;
-    top: 9px;
-    width: 8px;
-    height: 0;
-}
-
-.clt li::after {
-    border-left: 1px solid #000;
-    height: 100%;
-    width: 0px;
-    top: 2px;
-}
-
-.clt ul > li:last-child::after {
-    height: 8px;
+/* first line here deals with new situation after RemexHTML switch,
+ * where emptyline cause the first child to become the 2nd child. Such a mess
+ */
+.treeview li.emptyline > ul > .mw-empty-elt:first-child + .emptyline,
+.treeview li.emptyline > ul > li:first-child {
+    background-position: 0 9px;
 }
