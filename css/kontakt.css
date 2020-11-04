@@ -33,7 +33,11 @@ h2 {
 .kontakt-img-grid {
     margin-top: 3em;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
 }
 
