@@ -1,0 +1,35 @@
+.quiz {
+    width: 75%;
+    margin: auto;
+    margin-top: 1em;
+    border: 1px solid black;
+    padding: 3em;
+    height: 500px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+button {
+    margin-top: 6px;
+    font-size: 13px;
+    padding: 4px;
+}
+
+form {
+    width: 100%;
+}
+
+#sporsmal_label {
+    margin-bottom: 1em;
+}
+
+.alt {
+    margin-bottom: 1em;
+}
+
+.winner-bilde {
+    width: 30%;
+    border: 1px solid black;
+}

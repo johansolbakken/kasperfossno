@@ -1,0 +1,31 @@
+form {
+    width: 80%;
+    margin-bottom: 2em;
+}
+input {
+    margin-bottom: 1.5em;
+}
+
+input[type="text"], input[type="email"] {
+    border: none;
+    border-bottom: 1px black solid;
+    width: 100%;
+    font-size: 13px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 13px;
+}
+
+
+input[type="submit"] {
+    margin-bottom: 0;
+    border: none;
+    background-color: #aa0e00;
+    color: white;
+    padding: 0.5em;
+    width: 50%;
+    font-size: 13px;
+    margin-top: 1em;
+}

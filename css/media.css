@@ -1,0 +1,22 @@
+.media-video {
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+iframe {
+    width: 50%;
+    border: 0;
+    overflow: scroll;
+}
+
+@media screen and (max-width: 768px) {
+    iframe {
+        width: 100%;
+    }
+}

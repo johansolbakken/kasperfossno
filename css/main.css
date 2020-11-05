@@ -1,16 +1,156 @@
-html, body {
-    height: 100%;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+/*
+    Farger
+    Primary:
+        #aa0e00
+        Light: #e34c2c
+        Dark: #740000
+*/
+
+* {
+    /* Fjerner all style slik at vi begynner fra scratch */
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue,
+        Verdana, sans-serif;
     margin: 0;
-    border: 0;
+    color: #000;
+    background-color: #aa0e00;
+    height: 100%;
+}
+
+/*
+    Innhold
+*/
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    line-height: 25px;
 }
 
 .main {
-    width: 50%;
+    background-color: white;
+    width: 60%;
     margin: auto;
-    height: 100%;   
     padding: 4em;
+    min-height: 100%;
+}
 
-    font-family: 'Roboto', sans-serif;
-    background-color: #fbe9e7;
+h1 {
+    margin-bottom: 1em;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Signika', sans-serif;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 1400px) {
+    .main {
+        background-color: white;
+        width: 70%;
+        margin: auto;
+        padding: 4em;
+        min-height: 100%;
+        font-size: small;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    ul.nav-links {
+        display: none;
+    }
+    
+    .main {
+        background-color: white;
+        width: 75%;
+        margin: auto;
+        padding: 4em;
+        min-height: 100%;
+        font-size: small;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    ul.nav-links {
+        display: none;
+    }
+
+    .main {
+        background-color: white;
+        width: 100%;
+        margin: auto;
+        padding: 2em;
+        min-height: 100%;
+        font-size: small;
+        text-align: center;
+
+        overflow-x: hidden;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    ul.nav-links {
+        display: none;
+    }
+
+    .main {
+        background-color: white;
+        width: 100%;
+        margin: auto;
+        padding: 1em;
+        min-height: 100%;
+        font-size: small;
+
+        overflow-x: hidden;
+    }
+
+    h1 {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    ul.nav-links {
+        display: none;
+    }
+
+    .main {
+        background-color: white;
+        width: 100%;
+        margin: auto;
+        padding: 0.25em 0;
+        min-height: 100%;
+        font-size: x-small;
+
+        overflow-x: hidden; 
+    }
+
+    h1 {
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
 }

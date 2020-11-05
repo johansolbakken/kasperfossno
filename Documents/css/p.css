@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Verdana, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0px auto;
+    background-color: white;
+    position: relative;
+    top: 0px;
+    width: 100;
+}
+
+.Title {
+    text-align: center;
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 0px;
+    padding: 1em 0px;
+}
+
+header {
+    margin: 0em 25%;
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+.Brodtekst {
+    margin: 0em 25%;
+}
+
+.Byline {
+    text-align: right;
+    padding-top: 1em;
+    margin: 0em 25%
+}
+
+.Gruppemedlemmer {
+    font-style: italic;
+}
+
+.Dato {
+    font-style: italic;
+    color: #666;
+}
+
+
+
+.Content {
+    margin: auto;
+    width: 100%;
+    min-height: 100%;
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+td, th {
+    padding: 1px;
+}
+
+.Bilde {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.Bilde img {
+
+    max-width: 100%;
+}
+
+footer {
+    position: relative;
+
+    background: #F5F5F7;
+    color: #49494E;
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    height: 10%;
+    padding-top: 2%;
+    margin-top: 1em;
+}
+
+footer p {
+    margin: 1em 25% 2em 25%;
+}
+
+.logo {
+    margin: auto;
+    padding: 1%;
+    border: solid;
+    background-color: #ff8a66;
+    width: 40%;
+    text-align: center;
+    display: none;
+}
+
+.logo img {
+    width: 15%;
+}
+
+.titlelogo img {
+    width: 15%;
+}
+
+li.Underliste {
+    list-style: none;
+}
+
+.diagram-bilde {
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin-bottom: 4em;
+}
+
+
+#Kasper-Profil {
+    border-radius: 100%;
+    width: 60%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+    .Title {
+        font-size: large;
+    }
+
+    Byline {
+        font-size: small;
+        margin: 0em 7% 0em 7%;
+    }
+
+    .Dato {
+        font-size: small;
+        margin: 0em 7% 1em 7%;
+    }
+
+    .Gruppemedlemmer {
+        font-size: small;
+        margin: 0em 7% 1em 7%;
+    }
+
+    li {
+        font-size: small;
+    }
+
+    .Brodtekst {
+        font-size: small;
+        margin: 0em 7% 2em 7%;
+    }
+
+    header {
+        margin: 0em 7%;
+        font-size: small;
+    }
+
+    .Liste {
+        width: 50%;
+        margin: auto;
+        margin: 0em 7% 2em 7%;
+        font-size: medium;
+    }
+
+    .Bilde {
+        margin: auto;
+        width: 60%;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: small;
+        margin: 0em 7% 2em 7%;
+    }
+
+        table, td {
+  font-size: 1em;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Title {
+        font-size: 1.2em;
+    }
+
+    .Byline {
+        font-size: small;
+        margin: 0em 7% 0em 7%;
+    }
+
+    .Dato {
+        font-size: small;
+        margin: 0em 7% 1em 7%;
+    }
+
+
+    li {
+        font-size: 1em;
+    }
+
+    .Gruppemedlemmer {
+        font-size: small;
+        margin: 0em 7% 1em 7%;
+    }
+
+    .Brodtekst {
+        font-size: 1.3em;
+        margin: 0em 7% 2em 7%;
+    }
+
+    header {
+        margin: 0em 7%;
+        font-size: 1.5em;
+    }
+
+
+    .Bilde {
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: small;
+        margin: 0em 7% 2em 7%;
+    }
+
+        table, td {
+  font-size: 0.5em;
+}
+
+}
+
+
+
+
+@media only screen and (max-width: 350px) {
+
+    .Title {
+        font-size: small;
+    }
+
+    .Byline {
+        font-size: small;
+        margin: 0em 7% 0em 7%;
+    }
+
+    .Dato {
+        font-size: small;
+        margin: 0em 7% 1em 7%;
+    }
+
+
+    li {
+        font-size: small;
+    }
+
+    .Gruppemedlemmer {
+        font-size: small;
+        margin: 0em 7% 1em 7%;
+    }
+
+    .Brodtekst {
+        font-size: small;
+        margin: 0em 7% 2em 7%;
+    }
+
+    header {
+        margin: 0em 7%;
+        font-size: small;
+    }
+
+
+    .Bilde {
+        margin: auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    footer p {
+        font-size: small;
+        margin: 0em 7% 2em 7%;
+    }
+
+        table, td {
+  font-size: 0.5em;
+}
+
+}
+
+/* FILSTRUKTUR */
+.clt, .clt ul, .clt li {
+     position: relative;
+}
+
+.clt ul {
+    list-style: none;
+    padding-left: 32px;
+}
+
+.clt li::before, .clt li::after {
+    content: "";
+    position: absolute;
+    left: -12px;
+}
+
+.clt li::before {
+    border-top: 1px solid #000;
+    top: 9px;
+    width: 8px;
+    height: 0;
+}
+
+.clt li::after {
+    border-left: 1px solid #000;
+    height: 100%;
+    width: 0px;
+    top: 2px;
+}
+
+.clt ul > li:last-child::after {
+    height: 8px;
+}

@@ -1,0 +1,24 @@
+
+
+p {
+    margin-bottom: 2em;
+}
+
+.profile_picture {
+    width: 223px;
+    margin: auto;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+
+#Listeoverpersoner {
+    margin-bottom: 30px;
+    margin-left: 2em;
+    padding-left: 1em;
+}
+
+
+.innhold {
+    padding: 0 4em;
+}
+

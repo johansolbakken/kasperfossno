@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html lang="nb">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kasper Foss</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="css/navigasjon.css" />
+        <!--Header javascript-->
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <title>Kasper Foss</title>
-    <link rel="stylesheet" href="css/p.css">
-</head>
+    <body>
+        <!--Navigasjon-->
+        <nav id="nav"></nav>
 
-<body>
-    <div class="main">
-        <h1>Kasper Foss.no</h1>
+        <!--Innhold-->
+        <div class="main">
+            <header>
+                <h1 style="display: none">Index</h1>
+            </header>
+            <div class="innhold">
+                <div class="forside-bilde">
+                    <img src="img/forside-rod.jpg" alt="" />
+                    <a href="kontakt.html">
+                        <div class="book">
+                            <h3>KONTAKT</h3>
+                        </div>
+                    </a>
+                    <a href="test.html"
+                        ><div class="test">
+                            <h3>Test deg selv!</h3>
+                            <p>Hvilken karakter er du?</p>
+                        </div></a
+                    >
+                    <div class="info">
+                        <div class="klokkaer">
+                            <h3 id="klokka">Klokka er 00:00</h3>
+                            <p id="klokke-setning">Du må komma deg på jobb!</p>
+                        </div>
+                        <div class="dagensord">
+                            <h3>Dagens visdomsord</h3>
+                            <p id="ord">E=mc^2 Albert</p>
+                            <p id="mann"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <p><a href="Documents/P1_requirements_13.html">P1_requirements_13.html</a></p>
-        <p><a href="Documents/P2_design_13.html">P2_design_13.html</a></p>
-    </div>
-</body>
+        <!--Footer javascript-->
+        <!--Ingen footer på hovedsiden-->
 
+        <!-- Javascript -->
+        <script src="js/navigasjon.js"></script>
+        <script src="js/index.js"></script>
+    </body>
 </html>

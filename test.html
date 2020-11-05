@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Kasper Foss</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/test.css" />
+        <link rel="stylesheet" href="css/navigasjon.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <!--Header Javascript-->
+    </head>
+    <body>
+        <!--Navigasjon-->
+        <nav id="nav"></nav>
+
+        <!--Innhold-->
+        <div class="main">
+            <header>
+                <h1>Test deg selv</h1>
+            </header>
+            <div class="innhold">
+                <p>Hvilken Kasper Foss-karakter er du? <i>(Husk lyd!)</i></p>
+
+                <div class="quiz">
+                    <h3 id="sporsmal_label">Spørsmål</h3>
+                    <form
+                        action="#"
+                        method="post"
+                        onsubmit="return false"
+                        id="form"
+                    >
+                        <input
+                            type="radio"
+                            id="input_alternativ_1"
+                            name="quiz"
+                            value="input_alternativ_1"
+                            class="alt"
+                        />
+                        <label for="input_alternativ_1" id="label_alternativ_1">Alternativ 1</label
+                        ><br />
+                        <input
+                            type="radio"
+                            id="input_alternativ_2"
+                            name="quiz"
+                            value="input_alternativ_2"
+                            class="alt"
+                        />
+                        <label for="input_alternativ_2" id="label_alternativ_2">input_alternativ_2</label
+                        ><br />
+                        <input
+                            type="radio"
+                            id="input_alternativ_3"
+                            name="quiz"
+                            value="input_alternativ_3"
+                            class="alt"
+                        />
+                        <label for="input_alternativ_3" id="label_alternativ_3">input_alternativ_3</label
+                        ><br />
+                        <button id="button_next_question">Neste spørsmål</button>
+                    </form>
+                    <div>
+                        <img
+                            src="img/gutta/BerntHulsker.png"
+                            alt=""
+                            id="bilde-bernt"
+                            style="display: none"
+                            class="winner-bilde"
+                        />
+                        <img
+                            src="img/gutta/KåreIngebrigtsen.png"
+                            alt=""
+                            id="bilde-kare"
+                            style="display: none"
+                            class="winner-bilde"
+                        />
+                        <img
+                            src="img/gutta/KjetilRekdal.png"
+                            alt=""
+                            id="bilde-kjetil"
+                            style="display: none"
+                            class="winner-bilde"
+                        />
+                        <img
+                            src="img/gutta/MortenLangli.png"
+                            alt=""
+                            id="bilde-morten"
+                            style="display: none"
+                            class="winner-bilde"
+                        />
+                        <img
+                            src="img/gutta/ØyvindAlsaker.png"
+                            alt=""
+                            id="bilde-oyvind"
+                            style="display: none"
+                            class="winner-bilde"
+                        />
+                        <audio id="lyd-oyvind" style="display: none">
+                            <source src="sound/alsaker.mp3" type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <audio id="lyd-kare" style="display: none">
+                            <source src="sound/kare.mp3" type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <audio id="lyd-bernt" style="display: none">
+                            <source src="sound/hulsker.mp3" type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <audio id="lyd-kjetil" style="display: none">
+                            <source src="sound/rekdal.mp3" type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                        </audio>
+                        <audio id="lyd-morten" style="display: none">
+                            <source src="sound/langli.mp3" type="audio/mpeg" />
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer javascript-->
+        <footer class="footer" id="footer"></footer>
+        <script src="js/footer.js"></script>
+
+        <!-- Javascript -->
+        <script src="js/navigasjon.js"></script>
+        <script src="js/quiz.js"></script>
+    </body>
+</html>
