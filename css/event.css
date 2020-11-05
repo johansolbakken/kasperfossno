@@ -8,19 +8,19 @@
     padding: 5px;
 }
 
-#Oppdatert_tilbud { /* nye eventer */
+#Oppdatert_tilbud {
+    /* nye eventer */
     margin-bottom: 300px;
     margin-top: 50px;
     font-size: 30px;
 }
 
-#lerøy{
+#lerøy {
     font-size: 20px;
     float: left;
-    
 }
 
-#facebook_event{
+#facebook_event {
     float: right;
     font-size: 20px;
 }
@@ -30,8 +30,13 @@
 }
 
 #event_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
     justify-content: space-evenly;
     padding: 1em;
 }
