@@ -9,6 +9,7 @@ export const Social = () => {
               <li className="p-2 flex items-center">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"
+                  alt=""
                   className="w-16 mr-5"
                 />{" "}
                 @kasperrfoss
@@ -16,7 +17,7 @@ export const Social = () => {
               <li className="p-2 flex items-center">
                 {" "}
                 <img
-                  src="https://cdn.pixabay.com/photo/2020/10/17/13/19/twitter-5662063_960_720.png"
+                  src="https://cdn.pixabay.com/photo/2020/10/17/13/19/twitter-5662063_960_720.png" alt=""
                   className="w-16 mr-5"
                 />
                 @Kasper_Foss
@@ -25,6 +26,7 @@ export const Social = () => {
                 {" "}
                 <img
                   src="https://seeklogo.com/images/T/tiktok-app-icon-logo-0F5AD7AE01-seeklogo.com.png"
+                  alt=""
                   className="w-16 mr-5"
                 />
                 @kasperfoss
@@ -36,6 +38,7 @@ export const Social = () => {
       <div className="w-full h-full">
         <img
           src="https://sumo.cdn.tv2.no/imageapi/v3/img/615da0a2498e4fc2aaf7d2b5-1633536842300?location=list"
+          alt=""
           className="h-full w-full object-cover"
         />
       </div>

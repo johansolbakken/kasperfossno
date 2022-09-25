@@ -4,6 +4,7 @@ export const Insta = () => {
       <div className="w-full">
         <img
           className="w-full h-full"
+          alt=""
           src="https://www.rikstoto.no/imagevault/publishedmedia/zlm6esqvrrrzup3x9cyz/Kasper_Foss_-2-.jpg"
         />
       </div>
